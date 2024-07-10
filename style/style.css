@@ -159,8 +159,7 @@ a {
 .team {
   background: #f4f4fd;
 }
-.team-title,
-.portfolio-title {
+.team-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
