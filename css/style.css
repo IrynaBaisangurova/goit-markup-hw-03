@@ -94,14 +94,17 @@ address {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin:0 auto;
 }
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
 }
 .button-hero {
