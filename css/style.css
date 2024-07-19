@@ -13,9 +13,6 @@ ul {
 }
 
 /* header */
-.header{
- border-bottom: 1px solid #e7e9fc;
-}
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -24,9 +21,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.header-logo{
-  padding: 24px 0;
 }
 .header-logo-shift{
   color: #2e2f42;
