@@ -1,7 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455 ;
-  background-color: #fff;
+  line-height: 24px;
+  color: #434455;
+  font-size: 16px;
+  background-color:#FFFFFF;
 }
 
 a {
@@ -10,6 +12,9 @@ a {
 ul {
   list-style-type: none;
   text-align: center;
+}
+address{
+  font-style: normal;
 }
 
 /* header */
@@ -27,20 +32,19 @@ ul {
 }
 .menu-list {
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .menu-items-link:hover,
 .contacts-items-link:hover {
   color: #404bbf;
 }
-.menu-items-link:active {
-  text-decoration: underline;
+.menu-items-link:focus,
+.contacts-items-link:focus {
   color: #404bbf;
-  padding-bottom: 4px;
 }
 .contacts-items-link {
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -65,15 +69,27 @@ ul {
   cursor: pointer;
 }
 .button-hero:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
+}
+.button-hero:focus {
+  background: #404bbf;
+}
+
+/* features */
+.features-title-hidden {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;  
+  text-align: center; 
+  color: #2e2f42; 
 }
 .features-text {
   line-height: 1.5;
@@ -90,13 +106,18 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize ;
 }
-
+.team-items{
+  background-color: #fff;
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.20;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-post {
   line-height: 1.5;
@@ -113,6 +134,16 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize ;
+}
+.portfolio-name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center; 
+  color: #2e2f42;
 }
 .portfolio-post {
   line-height: 1.5;
@@ -136,7 +167,7 @@ ul {
   color: #4d5ae5;
 }
 .footer-logo-shift {
-  color: #fff;
+  color: #f4f4fd;
 }
 .footer-text {
   line-height: 1.5;
