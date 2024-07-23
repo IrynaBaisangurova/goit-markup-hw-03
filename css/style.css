@@ -29,7 +29,8 @@ img {
 }
 .container { 
     max-width: 1158px;
-    padding: 0 15px;   
+    padding-left: 15px;  
+    padding-right: 15px;   
     margin: 0 auto;  
     }
 .section{
@@ -43,7 +44,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navbar {
   display: flex;
@@ -150,8 +152,16 @@ img {
 
 /* #region features */
  .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 } 
 .features-list{
   display: flex;
@@ -199,9 +209,11 @@ img {
   justify-content: center;
   gap: 24px;
  }
+ .team-items{
+  border-radius: 0 0 4px 4px;
+}
 .team-items-text{
   background-color: #fff;
-  border-radius: 0 0 4px 4px;
   padding: 32px 0;
 }
 .team-items:hover{
